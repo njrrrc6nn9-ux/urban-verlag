@@ -133,3 +133,11 @@ nav ul{display:none;width:100%;flex-direction:column;gap:10px;padding:12px 0 6px
 .cp-big .burst{position:absolute;top:-16px;left:-12px}
 .cp-big h3{font-size:2rem;margin:8px 0}
 @media (max-width:640px){.cp-big{flex-direction:column;text-align:center}.cp-big img{width:80%}.lb-nav{width:40px;height:40px}}
+
+.ig-foot{margin:14px 0 0}
+.btn-ig{display:inline-flex;align-items:center;gap:8px;font-family:Bangers,cursive;letter-spacing:1px;font-size:1.15rem;color:#fff!important;text-decoration:none;padding:8px 18px;border:3px solid #111;border-radius:999px;background:linear-gradient(45deg,#f9a825,#e1306c 50%,#833ab4);box-shadow:4px 4px 0 #111;transform:rotate(-2deg);transition:transform .15s,box-shadow .15s}
+.btn-ig:hover,.btn-ig:focus-visible{transform:rotate(0) translate(-2px,-2px) scale(1.05);box-shadow:6px 6px 0 #111}
+footer .btn-ig{box-shadow:4px 4px 0 var(--sun)}
+.btn-ig.big{font-size:1.5rem;padding:12px 26px}
+.btn-ig .ig-ico{flex:none}
+.ig-cta{margin-top:30px;display:flex;flex-direction:column;align-items:center}.ig-cta .bubble{margin-bottom:14px}.ig-handle{font-weight:700;margin-top:10px}
