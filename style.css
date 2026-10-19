@@ -203,3 +203,8 @@ nav ul li.dd .dd-panel a[aria-current]{background:var(--sun);outline:3px dashed 
 .plv{grid-template-columns:minmax(220px,340px) 1fr}.plv .cover{padding:0;border:0}.plv .cover img{width:100%;height:auto}
 .plcard{display:flex;gap:16px;align-items:flex-start}.plcard img{border:3px solid var(--ink);box-shadow:3px 3px 0 var(--ink);height:auto;flex:none}
 @media(max-width:700px){.plv{grid-template-columns:1fr}.plv .cover{max-width:300px}.dpad{grid-template-columns:repeat(4,1fr)}}
+
+.wish-teaser{background:#ffe0ec;transform:rotate(.6deg)}
+.tz-ico{font-size:2.6rem;width:70px;text-align:center;flex:none}
+.wish .pow{font-size:1.25rem;padding:2px 16px;margin-bottom:10px}
+.wish-sec{scroll-margin-top:90px}
